@@ -1,12 +1,12 @@
 <template>
   <section>
-    <div class="max-w-6xl mx-auto ">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="  md:py-20 border-t border-gray-200 dark:border-gray-800">
 
 
 
         <!-- Section header -->
-        <div class="max-w-3xl mx-auto justify-center text-center  md:pb-6">
+        <div class="max-w-3xl mx-auto justify-center text-center  md:pb-20">
 
 
         
