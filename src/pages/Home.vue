@@ -10,6 +10,7 @@
     <main class="grow">
        <HeroHome />
       <Stats />
+      <Reviews />
       <HeroAbout />
       <Timeline />
       <BuyBook />
@@ -27,6 +28,7 @@ import Header from '@/partials/Header.vue'
 import HeroHome from '@/partials/HeroHome.vue'
 import HeroAbout from '@/partials/HeroAbout.vue'
 import Stats from '@/partials/Stats.vue'
+import Reviews from '@/partials/Reviews.vue'
 import BuyBook from '@/partials/BuyBook.vue'
 import Footer from '@/partials/Footer.vue'
 
@@ -49,7 +51,7 @@ let items = ref([
 
 
 onMounted(() => {
-  effectVisualizer('effect1', 'effectParent')
+  // effectVisualizer('effect1', 'effectParent')
 
 });
 
