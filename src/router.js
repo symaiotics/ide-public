@@ -20,7 +20,6 @@ import PageNotFound from './pages/PageNotFound.vue'
 // import About from './pages/About.vue'
 
 
-const routerHistory = createWebHistory()
 
 const router = createRouter({
   scrollBehavior(to) {
@@ -32,7 +31,7 @@ const router = createRouter({
       document.querySelector('html').style.scrollBehavior = ''
     }
   },
-  history: routerHistory,
+  history:  createWebHistory(),
   routes: [
     {
       path: '/',
@@ -62,7 +61,13 @@ const router = createRouter({
       path: '/:pathMatch(.*)*',
       component: PageNotFound
     }
-  ]
+  ],
+
+  navigationFallback: {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+  }
+
 })
 
 export default router
