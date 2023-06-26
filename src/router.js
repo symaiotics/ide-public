@@ -47,7 +47,7 @@ const router = createRouter({
       component: Explore
     },
     {
-      path: '/myEcosystem',
+      path: '/myecosystem',
       component: MyEcosystem
     },    
     {
