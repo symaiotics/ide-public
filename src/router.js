@@ -5,6 +5,7 @@ import Gallery from './pages/Gallery.vue'
 import Explore from './pages/Explore.vue'
 import MyEcosystem from './pages/MyEcosystem.vue'
 import Press from './pages/Press.vue'
+import QR from './pages/QR.vue'
 // import Contact from './pages/Contact.vue'
 
 import PageNotFound from './pages/PageNotFound.vue'
@@ -52,6 +53,10 @@ const router = createRouter({
     {
       path: '/press',
       component: Press
+    },
+    {
+      path: '/qr',
+      component: QR
     },
     // {
     //   path: '/contact',
